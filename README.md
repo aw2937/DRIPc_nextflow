@@ -38,14 +38,6 @@ The pipeline takes raw single-end FASTQ files, performs quality control, trimmin
 *   Optional: Peak annotation using a custom DROPA script.
 *   Optional: Alternative peak calling using the "Chedin method" (samtools depth, custom perl scripts, stochHMM).
 
-## Features
-
-*   **Automated Workflow:** End-to-end processing from FASTQ to downstream analysis.
-*   **Parallelization:** Leverages Nextflow's parallel execution capabilities for efficient processing of multiple samples.
-*   **Reproducibility:** Ensures consistent analysis by defining specific software versions (via Conda) and parameters.
-*   **Modularity:** Optional steps like MACS3, DROPA, and Chedin method can be skipped.
-*   **Standardized Outputs:** Generates common bioinformatics file formats.
-
 ## Requirements
 
 *   **Nextflow:** (version 21.10.x or later recommended).
