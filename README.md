@@ -1,4 +1,3 @@
-```markdown
 # DRIP-Seq Single-Read Processing Pipeline
 
 This Nextflow pipeline processes single-read DRIP-seq (DNA-RNA Immunoprecipitation sequencing) data. It automates steps from raw FASTQ files to alignment, coverage generation, peak calling, and annotation.
@@ -73,7 +72,7 @@ Clone or download this repository/pipeline script (`dripseq.nf`).
 # If it's in a git repository:
 # git clone <repository_url>
 # cd <repository_directory>
-```
+
 
 ### 2. Input Data
 *   Place your gzipped FASTQ files in a directory. The path to this directory will be specified by `params.input_dir`.
